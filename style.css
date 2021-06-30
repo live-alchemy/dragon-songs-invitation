@@ -4,6 +4,9 @@ html {
 }
 
 body {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 100%;
   display: flex;
   align-items: center;
@@ -21,4 +24,22 @@ img {
   display: block;
   max-height: 95vh;
   max-width: 98vw;
+}
+
+button.programLink {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  padding: 4px 8px;
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+embed {
+  height: 98vh;
+  width: 100vw;
+  max-width: 900px;
 }
